@@ -2,6 +2,10 @@
 
 `Seamless Tester` is a small browser-based utility for checking whether an image or texture is truly seamless when repeated.
 
+If you land on the GitHub Pages root, open the actual tester here:
+
+[Open the live tester](https://louispaulet.github.io/seamless-tester/seamless_texture_test_select_file_zoom.html)
+
 ## What It Does
 - Loads a local image file.
 - Repeats the image in a 10x10 grid.
