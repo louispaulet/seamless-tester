@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Avenir Next", "SF Pro Text", "Segoe UI", sans-serif;
+  background: #020b14;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(89, 142, 179, 0.18), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(255, 196, 120, 0.12), transparent 32%),
+    linear-gradient(180deg, #04111d 0%, #020b14 100%);
+}
+
+button {
+  font: inherit;
+}

@@ -1,5 +1,10 @@
 # Local screenshot artifacts
 ChatGPT Image *.png
 
+# Dependencies and builds
+node_modules/
+dist/
+coverage/
+
 # macOS metadata
 .DS_Store
