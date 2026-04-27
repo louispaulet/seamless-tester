@@ -119,6 +119,12 @@ export default function App() {
         ref={controlsRef}
         className="fixed left-2.5 right-2.5 top-2.5 z-10 flex max-w-none flex-wrap items-center gap-2.5 rounded-lg border border-slate-900/10 bg-[#fffbf3]/95 p-3 text-slate-900 shadow-[0_18px_40px_rgba(2,8,23,0.24)] backdrop-blur md:left-3.5 md:right-auto md:top-3.5 md:max-w-[calc(100vw-28px)]"
       >
+        <img
+          src="/seamless-logo.png"
+          alt="Seamless Tester"
+          className="h-11 w-11 flex-none rounded-lg"
+          draggable="false"
+        />
         <button
           type="button"
           aria-label="Open image"

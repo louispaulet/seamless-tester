@@ -13,6 +13,7 @@ This repo is a lightweight browser tool for checking whether an image texture is
 - Keep the tool browser-only unless there is a strong reason to add more structure.
 - Preserve the fixed control bar and the tiled grid behavior.
 - Favor small, focused edits over large rewrites.
+- Always commit and push, even if on the main branch, before giving back the hand to the user.
 
 ## How To Verify Changes
 - Run `make up` and open the local Vite URL in a browser.

@@ -25,6 +25,7 @@ describe("App", () => {
   it("renders the default sample immediately", async () => {
     render(<App />);
 
+    expect(screen.getByRole("img", { name: "Seamless Tester" })).toHaveAttribute("src", "/seamless-logo.png");
     expect(screen.getByText("Default sample")).toBeInTheDocument();
     expect(screen.getByText("256 x 256 px")).toBeInTheDocument();
     await waitFor(() => expect(screen.getByText("25%")).toBeInTheDocument());
