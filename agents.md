@@ -18,7 +18,7 @@ This repo is a lightweight browser tool for checking whether an image texture is
 - Open the HTML file in a browser.
 - Load a candidate texture or image.
 - Check the seams where tiles meet at multiple zoom levels.
-- Confirm the default embedded texture still renders immediately without loading a file.
+- Confirm the default embedded sample still renders immediately without loading a file.
 
 ## Notes
 - If you add assets or new modes, document them in `readme.md`.
