@@ -4,7 +4,7 @@
 
 If you land on the GitHub Pages root, open the tester here:
 
-[Open the live tester](https://louispaulet.github.io/seamless-tester/)
+[Open the live tester](https://seamless.thefrenchartist.dev/)
 
 ## What It Does
 - Loads a local image file.
@@ -33,6 +33,8 @@ make deploy
 ```
 
 `make deloy` is also available as an alias for `make deploy`.
+
+Deployments publish the Vite `dist/` folder to GitHub Pages with the custom domain `seamless.thefrenchartist.dev`.
 
 ## Why It Exists
 An image can look fine on its own but reveal visible seams once it is tiled. This project provides a fast visual check before using that image as a texture, background, or repeated pattern.

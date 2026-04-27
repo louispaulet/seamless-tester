@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://louispaulet.github.io/seamless-tester/",
+  "homepage": "https://seamless.thefrenchartist.dev/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --logLevel warn && node scripts/build-info.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-router-dom": "^7.14.2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "latest",

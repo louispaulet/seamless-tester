@@ -9,7 +9,12 @@ up: node_modules
 	npm run dev -- --host 0.0.0.0 --port $(PORT)
 
 kill:
-	-lsof -ti tcp:$(PORT) | xargs kill
+	@pids=$$(lsof -ti tcp:$(PORT)); \
+	if [ -n "$$pids" ]; then \
+		kill $$pids; \
+	else \
+		echo "No process listening on port $(PORT)"; \
+	fi
 
 test: node_modules
 	npm test
