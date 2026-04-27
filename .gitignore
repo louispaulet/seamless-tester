@@ -1,0 +1,5 @@
+# Local screenshot artifacts
+ChatGPT Image *.png
+
+# macOS metadata
+.DS_Store
