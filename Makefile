@@ -1,6 +1,6 @@
 PORT ?= 5173
 
-.PHONY: up kill test deploy deloy
+.PHONY: up kill test build deploy deloy
 
 node_modules: package.json package-lock.json
 	npm install
@@ -18,6 +18,9 @@ kill:
 
 test: node_modules
 	npm test
+
+build: node_modules
+	npm run build
 
 deploy: node_modules
 	npm run deploy
